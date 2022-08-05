@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+.heading2{
+    background-image: linear-gradient( to right, red, rgb(22, 165, 22), yellow);
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+}
+.list{
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 5px solid rgb(177, 3, 3);
+    background-color: rgb(124, 192, 212);
+}
+.list ul{
+    display: inline-block;
+}
+.list ul li{
+    font-family: 'Crete Round', serif;
+    padding-left: 50px;
+}
+.content-boxes{
+    max-width: 1400px;
+    border-radius: 20px;
+    margin: auto;
+    height: 200px;
+    border: 2px solid rgb(146, 3, 3);
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 400px);
+    column-gap: 30px;
+    
+
+}
+.content-box{
+    border: 2px solid rgb(2, 121, 2);
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+}
+.content-box-para{
+    color: black;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+}
+.four{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.heading3{
+    background-image: linear-gradient( to right, red, yellow, red);
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+}
+.topper{
+   background-image: radial-gradient(
+    blue 50%
+   ,rgb(8, 233, 8));
+   height: 300px;
+   margin: 20px 0px;
+   border: 3px solid rgb(8, 92, 8);
+   display: grid;
+   align-items: center;
+   padding-left: 30px;
+   grid-template-columns: auto auto auto auto;
+}
+.topper-box{
+    height: 120px;
+    width: 200px;
+    background-color: rgb(240, 240, 40);
+    border-radius: 20px;
+    border: 2px solid maroon;
+}
+.topper-box-para{
+    color: maroon;
+    
+    font-family: 'Crete Round', serif;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 2;
+}
+.grid-container{
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto 80px;
+    gap: 15px;
+    color: white;
+    text-align: left;
+}
+.grid-head1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 2px;
+}
+.grid-head2{
+    margin: 0px;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 2px;
+    color: #000;
+    text-align: center;
+}
+.para2{
+    font-weight: bolder;
+    font-size: 24px;
+    max-width: 300px;
+    margin: auto;
+}
+.para3{
+    font-weight: bolder;
+    font-size: 24px;
+    max-width: 350px;
+
+}
+.para4{
+  
+    font-weight: bolder;
+    font-size: 20px;
+    max-width: 250px;
+}
+.para6{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.item1{
+    background-color: rgb(196, 11, 11);
+    grid-column: 1 / 5;
+}
+.item2{
+background-color: rgb(58, 226, 58);
+text-align: center;
+
+}
+.item3{
+    background-color:rgb(12, 139, 243) ;
+    
+}
+.item4{
+    background-color: blue;
+
+}
+.item5{
+    
+    background-color:black ;
+   grid-row: 2/4;
+   grid-column: 4/5;
+   text-decoration: underline;
+  
+}
+.item6{
+    background-color: rgb(250, 170, 23);
+    grid-column: 1 / 4;
+    height: 100px;
+}
+.item7{
+    grid-column: 1 / 5;
+    background-color: rgb(18, 205, 230);
+}
